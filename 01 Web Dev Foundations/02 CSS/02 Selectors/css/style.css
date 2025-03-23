@@ -1,0 +1,35 @@
+* {            /* Selects all elements */
+  font-family: monospace;
+}
+
+html {         /* Selects the html element */
+  background-color: lightgray;
+  font-size: 22px;
+}
+
+body {
+  border: 3px solid black;
+  padding: 10px;
+}
+
+h1, h2 {        /* Selects all h1 and h2 elements */
+  color: blue;
+}
+
+p {             /* Selects all p elements */
+  color: purple;
+}
+
+p span {        /* Selects all span elements that are descendants of a p element */
+  text-transform: uppercase;
+  color: gold;
+}
+
+.gray {         /* Selects all elements with class="gray" */
+  color: gray;
+}
+
+#second {       /* Selects the element with id="second" */
+  font-style: italic;
+  color: red ;
+}
