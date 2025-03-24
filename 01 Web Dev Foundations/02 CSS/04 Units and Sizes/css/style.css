@@ -1,0 +1,33 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  border: 2px dashed #0000ff;
+  width: 50%;  /* 50% of the parent element */
+}
+
+body {
+  min-height: 50vh;  /* 50% of the viewport height */
+}
+
+h1 {
+  border: 2px dashed red;
+  width: 50%;  /* 50% of the parent element */
+  font-size: 2rem; /* 2 times the default font size of root element */
+  padding: 0.5em;  /* 0.5 times the current font size */
+}
+
+main {
+  width: 50vw;
+  background-color: skyblue;
+  font-size: 2rem;  /* 2 times the default font size */
+}
+
+
+p {
+  font-size: 2rem; /* 2 times the default font size */
+  width: 40ch;  /* 40 characters width */
+}
