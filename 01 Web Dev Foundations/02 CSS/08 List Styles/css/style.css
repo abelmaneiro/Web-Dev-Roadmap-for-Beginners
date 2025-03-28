@@ -1,0 +1,35 @@
+@import url(https://fonts.googleapis.com/css2?family=Roboto&display=swap);
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 2rem;
+  padding: 5% 10%; /* 5% top and bottom, 10% left and right */
+}
+
+ol {
+  list-style-type: square;
+  padding-left: 5rem; /* Indent the list */
+}
+
+ol ::marker{  /* Select the marker of the list item */
+  color: red;
+  content: "On Sale "; /* Add a custom marker before the list item */
+}
+
+ol li:nth-child(odd) { /* Select the second list item */
+  color: green; /* Change the color of the second list item to red */
+}
+
+ul {
+  list-style-type: decimal;
+  text-align: center;
+  list-style-position: inside;
+  color: blue;
+  line-height: 1.6;
+  list-style-image: url("../images/checkmark.png");
+}
+
+ul li:nth-child(2) { /* Select the second list item */
+  color: red; /* Change the color of the second list item to red */
+}
+
